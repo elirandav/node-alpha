@@ -9,6 +9,7 @@
   "dependencies": {
     "ava": "^2.4.0",
     "babel-register": "^6.26.0",
+    "constantinople": "^3.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
