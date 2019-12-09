@@ -1,4 +1,3 @@
-const test = require('ava');
 const request = require('supertest');
 const bodyParser = require('body-parser');
 const express = require('express');
