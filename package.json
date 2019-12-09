@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "nodemon ./bin/www",
     "test": "ava tests/**"
   },
   "dependencies": {
@@ -17,6 +17,9 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
+    "nodemon": "^1.11.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
     "supertest": "^4.0.2",
     "uglify-js": "^2.8.29"
   }
